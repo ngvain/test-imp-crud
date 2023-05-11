@@ -13,8 +13,6 @@ class LoginController extends GetxController with StateMixin {
   @override
   void onInit() {
     change(null, status: RxStatus.empty());
-    usernameCtl.text = 'applicantimp@gmail.com';
-    passwordCtl.text = '00000000';
     super.onInit();
   }
 
