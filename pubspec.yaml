@@ -1,0 +1,33 @@
+name: test_imp_crud
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  dio: ^5.1.2
+  flutter_form_builder: ^8.0.0
+  get_storage: ^2.1.1
+  form_builder_validators: ^8.6.1
+  ifarms_theme: 
+    git: 
+      url: https://github.com/renaldi1050/ifarms-theme.git
+      ref: master
+  json_annotation: ^4.8.1
+
+dev_dependencies: 
+  build_runner: ^2.3.3
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+  html: ^0.15.3
+  json_serializable: ^6.6.2
+
+flutter: 
+  uses-material-design: true
+
